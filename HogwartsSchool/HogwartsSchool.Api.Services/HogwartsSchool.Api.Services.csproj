@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\HogwartsSchool.Api.Bussiness\HogwartsSchool.Api.Bussiness.csproj" />
+    <ProjectReference Include="..\HogwartsSchool.Api.Services.Contracts\HogwartsSchool.Api.Services.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

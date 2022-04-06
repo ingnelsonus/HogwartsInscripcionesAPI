@@ -1,3 +1,8 @@
+using Transversal.Register;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+IoCRegister.AddRegistration(builder.Services, builder.Configuration.GetConnectionString("CnxHogwartsSchoolRequest"));
+
 
 var app = builder.Build();
 

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess.Contracts\DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\HogwartsSchool.Api.Bussiness\HogwartsSchool.Api.Bussiness.csproj" />
+  </ItemGroup>
+
 </Project>
