@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HogwartsSchool", "HogwartsSchool\HogwartsSchool.csproj", "{1E5FEC0B-04D1-4FE2-8487-2B7225811EC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentacion", "1. Presentacion", "{BA1C2182-35A4-4867-8ED6-91012EEEDE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Dominio", "2. Dominio", "{229F1DF1-1E0A-4896-9A3E-458356234F49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DataAccess", "3. DataAccess", "{9C74B90E-0344-492A-B4C4-5E50C865B447}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Transversal", "4. Transversal", "{049CCBA2-1378-40BB-9C91-71B442397903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transversal", "Transversal\Transversal.csproj", "{611E6529-D4BF-48D7-8685-EBB046B6F95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Contracts", "DataAccess.Contracts\DataAccess.Contracts.csproj", "{BE4804CA-1A52-40A4-93E2-2D7FC1275171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{A48A0857-8729-4D0A-BA9B-39B1369ECBA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Aplication", "2.1 Aplication", "{7A1A46F4-2B12-4837-8F23-2E5D4E6D9827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Business", "2.2 Business", "{656574AB-2B21-4D77-807B-E667E351BA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HogwartsSchool.Api.Bussiness", "HogwartsSchool.Api.Bussiness\HogwartsSchool.Api.Bussiness.csproj", "{D8DB63F7-514F-4E4A-BB77-86B0164E4171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HogwartsSchool.Api.Services.Contracts", "HogwartsSchool.Api.Services.Contracts\HogwartsSchool.Api.Services.Contracts.csproj", "{3066AC01-0261-4339-B1A9-7951E7C61E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HogwartsSchool.Api.Services", "HogwartsSchool.Api.Services\HogwartsSchool.Api.Services.csproj", "{D4DCC454-1113-46FC-A5E0-976F65C5F066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5FEC0B-04D1-4FE2-8487-2B7225811EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5FEC0B-04D1-4FE2-8487-2B7225811EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5FEC0B-04D1-4FE2-8487-2B7225811EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5FEC0B-04D1-4FE2-8487-2B7225811EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611E6529-D4BF-48D7-8685-EBB046B6F95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611E6529-D4BF-48D7-8685-EBB046B6F95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611E6529-D4BF-48D7-8685-EBB046B6F95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611E6529-D4BF-48D7-8685-EBB046B6F95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4804CA-1A52-40A4-93E2-2D7FC1275171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4804CA-1A52-40A4-93E2-2D7FC1275171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4804CA-1A52-40A4-93E2-2D7FC1275171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4804CA-1A52-40A4-93E2-2D7FC1275171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48A0857-8729-4D0A-BA9B-39B1369ECBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48A0857-8729-4D0A-BA9B-39B1369ECBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48A0857-8729-4D0A-BA9B-39B1369ECBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48A0857-8729-4D0A-BA9B-39B1369ECBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DB63F7-514F-4E4A-BB77-86B0164E4171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DB63F7-514F-4E4A-BB77-86B0164E4171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DB63F7-514F-4E4A-BB77-86B0164E4171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DB63F7-514F-4E4A-BB77-86B0164E4171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3066AC01-0261-4339-B1A9-7951E7C61E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3066AC01-0261-4339-B1A9-7951E7C61E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3066AC01-0261-4339-B1A9-7951E7C61E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3066AC01-0261-4339-B1A9-7951E7C61E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DCC454-1113-46FC-A5E0-976F65C5F066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DCC454-1113-46FC-A5E0-976F65C5F066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DCC454-1113-46FC-A5E0-976F65C5F066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DCC454-1113-46FC-A5E0-976F65C5F066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E5FEC0B-04D1-4FE2-8487-2B7225811EC4} = {BA1C2182-35A4-4867-8ED6-91012EEEDE1A}
+		{611E6529-D4BF-48D7-8685-EBB046B6F95B} = {049CCBA2-1378-40BB-9C91-71B442397903}
+		{BE4804CA-1A52-40A4-93E2-2D7FC1275171} = {9C74B90E-0344-492A-B4C4-5E50C865B447}
+		{A48A0857-8729-4D0A-BA9B-39B1369ECBA3} = {9C74B90E-0344-492A-B4C4-5E50C865B447}
+		{7A1A46F4-2B12-4837-8F23-2E5D4E6D9827} = {229F1DF1-1E0A-4896-9A3E-458356234F49}
+		{656574AB-2B21-4D77-807B-E667E351BA7C} = {229F1DF1-1E0A-4896-9A3E-458356234F49}
+		{D8DB63F7-514F-4E4A-BB77-86B0164E4171} = {656574AB-2B21-4D77-807B-E667E351BA7C}
+		{3066AC01-0261-4339-B1A9-7951E7C61E10} = {7A1A46F4-2B12-4837-8F23-2E5D4E6D9827}
+		{D4DCC454-1113-46FC-A5E0-976F65C5F066} = {7A1A46F4-2B12-4837-8F23-2E5D4E6D9827}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C75A72B0-3F0E-4314-B7CC-48BBD8050302}
+	EndGlobalSection
+EndGlobal
